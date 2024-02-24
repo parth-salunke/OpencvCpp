@@ -14,7 +14,7 @@ int main(){
     Mat img(512,512, CV_8UC3, Scalar(255,255,255));
 
     //circle with thickness 10
-    // circle(img, Point(255,255), 200, Scalar(0,0,0),10);
+    circle(img, Point(255,255), 200, Scalar(0,0,0),10);
     //cicle with filled
     circle(img, Point(255,255), 200, Scalar(0,0,0), FILLED);
 
